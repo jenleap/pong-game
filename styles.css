@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+
+}
+
+h1.message-box {
+    color: white;
+    position: relative;
+    top: 40%;
+}
+
+button { 
+    display: block;
+    padding: 10px;
+    color:white;
+    background-color: darkgray;
+    width: 200px;
+    margin: 20px auto;
+    font-family: 'VT323', monospace;
+    font-size: 1.5em;
+    border-radius: 5px;
+    border: 2px solid gray;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: none;
+}
+
+#pong-table {
+    width: 600px;
+    height: 400px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+}
+
+#ball {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+#paddle {
+    width: 8px;
+    height: 80px;
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+    top: 160px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    margin: 10px auto;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: gray;
+}
